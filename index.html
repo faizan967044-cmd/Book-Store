@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE BOOK STORE</title>
+
+    <style>
+
+        .header{
+            background: rgb(243, 195, 105);
+            height: 70px;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            
+        }
+
+            .logo{
+                 width: 100px;
+                 align-items: center;
+            }
+            .logo img{
+                height: 75px;
+                width: 100px;
+                
+            }
+            .title{
+                color: rgb(0, 0, 0);
+                flex: 1;
+                margin: 14px;
+                
+            }
+
+        
+        .menu{
+            background-color: rgb(217, 194, 245);
+            font-size: 30px;
+            height: 50px;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .menu a{
+            text-decoration: none;
+            color: rgb(20, 4, 4);
+        }
+
+        .main{
+            background-color: rgb(214, 182, 170);
+            font-size: 20px;
+            height: 300px;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            
+
+        }
+        .left{
+            color: rgb(12, 1, 1);
+            width: 200px;
+            align-items: center;
+            border: 1px solid black;
+            display: flex;
+            text-decoration: none;
+            flex-direction: column;
+
+            align-items: center;
+        }
+        .right{
+            color: rgb(0, 0, 0);
+            flex: 1;
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        .right iframe{
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class = "header">
+        <div class = "logo">
+            <img src="LogoGLBajaj.jpg">
+
+        </div>
+        <div class = "title">Website Name</div>
+    </div>
+    <div class = "menu">
+        <a href="home.html" target="content">home</a>
+        <a href="login.html" target="content">login</a>
+        <a href="registration.html" >registration</a>
+        <a href="" target="content">catalogue</a>
+        <a href="" target="content">cart</a>
+
+    </div>
+    <div class = "main">
+    <div class = "left">
+        <a href="cse.html" target="content">CSE</a>
+        <a href="ece.html" target="content">ECE</a>
+        <a href="eee.html" target="content">EEE</a>
+        <a href="civil.html" target="content">CIVIL</a>
+    </div>
+    <div class = "right">
+       <iframe src="home.html" name="content">
+
+       </iframe>
+        
+    </div>
+</body>
+</html>
