@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Stylish Web Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins', sans-serif;
+        }
+
+        body{
+            background-image:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+            background-size:cover;
+            background-position:center;
+            background-attachment:fixed;
+            color:white;
+        }
+
+        header{
+            background:rgba(0,0,0,0.7);
+            padding:20px;
+            text-align:center;
+        }
+
+        header h1{
+            color:#00e5ff;
+            margin-bottom:10px;
+            font-size:36px;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:white;
+            margin:0 15px;
+            font-size:18px;
+ 
+        }
+
+        nav a:hover{
+            color:#00e5ff;
+        }
+
+        .hero{
+            height:75vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+        }
+
+        .content{
+            background:rgba(0,0,0,0.6);
+            padding:40px;
+            border-radius:15px;
+        }
+
+        .content h2{
+            font-size:45px;
+            color:#ffeb3b;
+        }
+
+        .content p{
+            margin-top:15px;
+            font-size:20px;
+        }
+
+        button{
+            margin-top:20px;
+            padding:12px 25px;
+            border:none;
+            background:#00e5ff;
+            color:black;
+            font-size:18px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#ffeb3b;
+        }
+    
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="content">
+            <h2>Creative Web Design</h2>
+            <p>Using HTML and CSS for beautiful websites.</p>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    
+
+</body>
+</html>
